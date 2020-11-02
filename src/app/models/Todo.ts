@@ -4,6 +4,6 @@ class Todo {
     completed: boolean;
 
     constructor() { }
-
-
 }
+
+export { Todo }
