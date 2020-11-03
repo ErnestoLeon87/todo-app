@@ -1,1 +1,7 @@
-<p>todo-item works!</p>
+<div [ngClass]="setClasses()">
+    <label>
+        <input (change)="onToggleCompleted(todo)" type="checkbox>
+        {{ todo.title }}
+    </label>
+    <button class=" del">X</button>
+</div>
