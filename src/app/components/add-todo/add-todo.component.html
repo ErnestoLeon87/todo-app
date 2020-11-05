@@ -1,7 +1,7 @@
 <form class="form" (ngSubmit)="onSubmit()">
-    <label>
-        Title:
-        <input type="text" name="title" [(ngModel)]="title" placeholder="eg. New Todo">
-    </label>
-    <input type="submit" value="Submit" class="btn">
+
+    <input class="todo-title" type="text" name="title" [(ngModel)]="title" placeholder="Title">
+
+    <input type="submit" value="Add Todo" class="btn">
+
 </form>
